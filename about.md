@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p></p>
+<p>This is Hisham Alshaikh. </p>
 
 
 <h2>Penetration Testing Skills</h2>
@@ -38,10 +38,9 @@ layout: page
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="#">Falsus</a> A lightweight web-shell for receiving credentials from phishing campaigns and store them asymmetrically encrypted in a JSON file. Technologies: HTML, CSS, PHP.
-</li>
-	<li><a href="http://resources.infosecinstitute.com/social-engineering-toolkits">Ninja Phishing Framework</a> A social engineering framework that helps penetration testers to launch an organized social engineering attacks such    as phishing and other client side attacks. Technologies: HTML, CSS, PHP, JavaScript, and MySQL.
-</li>
-	<li><a href="https://github.com/">Coalesce</a> A social network website that helps college students to create and share with other students. Events such as volunteering, sports, studying sessions and etc. Technologies: HTML5, CSS3, JQuery, PHP, and MySQL.
-</li>
+	<li><a href="#">Falsus</a> A lightweight web-shell for receiving credentials from phishing campaigns and store them asymmetrically encrypted in a JSON file. Technologies: HTML, CSS, PHP.</li>
+	<li><a href="http://resources.infosecinstitute.com/social-engineering-toolkits">Ninja Phishing Framework</a> A social engineering framework that helps penetration testers to launch an organized social engineering attacks such    as phishing and other client side attacks. Technologies: HTML, CSS, PHP, JavaScript, and MySQL.</li>
+	<li><a href="https://github.com/">Coalesce</a> A social network website that helps college students to create and share with other students. Events such as volunteering, sports, studying sessions and etc. Technologies: HTML5, CSS3, JQuery, PHP, and MySQL.</li>
+	
+	<li><a href="#">Cybersecurity Signature Identifier</a> A device that reads an electronic fingerprint from a CB-RAM PUF that is attached to a chip; this technology will be used to secure the Internet of Things and to prevent counterfeiting electronics in the future. This was my senior design project in college.</li>
 </ul>
