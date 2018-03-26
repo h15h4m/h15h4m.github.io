@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>This is Hisham Alshaikh. </p>
+<p>This is Hisham Alshaikh from Saudi Arabia. I really like cybersecurity. That is it. </p>
 
 
 <h2>Penetration Testing Skills</h2>
@@ -36,7 +36,6 @@ layout: page
 </ul>
 
 <h2>Projects</h2>
-
 <ul>
 	<li><a href="#">Falsus</a> A lightweight web-shell for receiving credentials from phishing campaigns and store them asymmetrically encrypted in a JSON file. Technologies: HTML, CSS, PHP.</li>
 	<li><a href="http://resources.infosecinstitute.com/social-engineering-toolkits">Ninja Phishing Framework</a> A social engineering framework that helps penetration testers to launch an organized social engineering attacks such    as phishing and other client side attacks. Technologies: HTML, CSS, PHP, JavaScript, and MySQL.</li>
