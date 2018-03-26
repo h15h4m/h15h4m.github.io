@@ -9,13 +9,13 @@ layout: page
 
 <h2>Penetration Testing Skills</h2>
 <ul class="skill-list">
-	<li>Pentesting with Kali Linux</li>
+	<li>Proficient in pentesting with Kali Linux</li>
 	<li>Web applications pentesting with Burp Suite</li>
 	<li>Vulnerability Scanning (Manually, OpenVAS, Nessus, and etc)</li>
 	<li>Social Engineering</li>
 	<li>Reverse Engineering</li>
 	<li>Proficient in black box and white box methodologies</li>
-	<li>CTFer</li>
+	<li><a href="https://www.hackthebox.eu/profile/3934">CTFer</a> Got top 100 badge</li>
 </ul>
 
 
@@ -37,8 +37,10 @@ layout: page
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Falsus</a> A lightweight web-shell for receiving credentials from phishing campaigns and store them asymmetrically encrypted in a JSON file. Technologies: HTML, CSS, PHP.
+	<li><a href="#">Falsus</a> A lightweight web-shell for receiving credentials from phishing campaigns and store them asymmetrically encrypted in a JSON file. Technologies: HTML, CSS, PHP.
 </li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="http://resources.infosecinstitute.com/social-engineering-toolkits">Ninja Phishing Framework</a>A social engineering framework that helps penetration testers to launch an organized social engineering attacks such    as phishing and other client side attacks. Technologies: HTML, CSS, PHP, JavaScript, and MySQL.
+</li>
+	<li><a href="https://github.com/">Coalesce</a>A social network website that helps college students to create and share with other students. Events such as volunteering, sports, studying sessions and etc. Technologies: HTML5, CSS3, JQuery, PHP, and MySQL.
+</li>
 </ul>
