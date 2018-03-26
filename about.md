@@ -14,7 +14,8 @@ layout: page
 	<li>Vulnerability Scanning (Manually, OpenVAS, Nessus, and etc)</li>
 	<li>Social Engineering</li>
 	<li>Reverse Engineering</li>
-	<li>Profient in blackbox and whitebox methodologies</li>
+	<li>Proficient in black box and white box methodologies</li>
+	<li>CTFer</li>
 </ul>
 
 
@@ -36,7 +37,7 @@ layout: page
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
+	<li><a href="https://github.com/">Coalesce</a> testing testing</li>
 	<li><a href="https://github.com/">Ipsum Dolor</a></li>
 	<li><a href="https://github.com/">Dolor Lorem</a></li>
 </ul>
