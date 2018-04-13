@@ -15,13 +15,10 @@ author: Hisham Alshaikh
 description: This is just a walkthrough for overthewire's bandit level 16
 ---
 
-## Challenge :
-{% highlight raw %}
-![Markdown Image][assets/images/markdown.jpg]
-{% endhighlight %}
+## Challenge
 
-![Markdown Image](/assets/images/markdown.jpg)
+![Markdown Image](/assets/images/bandit_16_solution/overthewire_challenge.png)
 
-
+The crazy brown fox jumps over the lazy dog.
 ## Solution
 
