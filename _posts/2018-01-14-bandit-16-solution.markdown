@@ -20,5 +20,5 @@ description: This is just a walkthrough for overthewire's bandit level 16
 ![Markdowm Image][/assets/images/markdown.jpg]
 {% endhighlight %}
 
-## 
+## Solution
 
