@@ -17,7 +17,7 @@ description: This is just a walkthrough for overthewire's bandit level 16
 
 ## Challenge
 
-![Markdown Image](/assets/images/bandit_16_solution/overthewire_challenge.png)
+![Markdown Image](/assets/images/bandit_16_solution/overthewire_challenge.png = 1000x200)
 
 
 
