@@ -17,7 +17,7 @@ description: This is just a walkthrough for overthewire's bandit level 16
 
 ## Challenge :
 {% highlight raw %}
-![Markdowm Image][assets/images/markdown.jpg]
+![Markdown Image][assets/images/markdown.jpg]
 {% endhighlight %}
 
 ## Solution
