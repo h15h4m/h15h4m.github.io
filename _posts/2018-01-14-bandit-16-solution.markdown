@@ -32,7 +32,7 @@ Now we can scan the ports in the specfied range using any port scanner. In my ca
 Cool! we were able to obtain several open ports in that range. Since we did not get many open ports we can check which one of the open ports accepts SSL manually, it unnecessary to write a script to automate this for us. So it just a matter of trial and error
 ![Markdown Image](/assets/images/bandit_16_solution/failed_ssl_connection.png)
 
-As you can see we were able to find that port 31790 accepts over the SSL. Now all we need to do is to send the current password of this level.
+As you can see we were able to find that port 31790 accepts over SSL. Now all we need to do is to send the current password of this level.
 ![Markdown Image](/assets/images/bandit_16_solution/success_ssl_connection.png)
 
 
