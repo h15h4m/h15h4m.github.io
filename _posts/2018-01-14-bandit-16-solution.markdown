@@ -39,7 +39,7 @@ As you can see we were able to find that port 31790 accepts over the SSL. Now al
 We got a text that says "Correct!" and as it seems an SSH private key for the next level.
 ![Markdown Image](/assets/images/bandit_16_solution/obtaining_ssh_private_key.png)
 
-lets just put the private key we obtained in a file and change its permission to 600, so we can use it.
+lets just put the private key we obtained in a file and change its permission to 600, so we can use it to access the new level.
 ![Markdown Image](/assets/images/bandit_16_solution/accessing_the_new_level.png)
 
 
