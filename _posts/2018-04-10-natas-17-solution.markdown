@@ -17,6 +17,8 @@ description: This is just a walkthrough for overthewire's natas level 17
 
 ## Challenge
 
+![Markdown Image](/assets/images/natas_17_solution/challenge_page.png)
+
 {% highlight php %}
 <? 
 /* 
