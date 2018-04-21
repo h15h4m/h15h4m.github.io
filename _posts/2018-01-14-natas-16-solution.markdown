@@ -20,43 +20,34 @@ description: This is just a walkthrough for overthewire's natas level 16
 ![Markdown Image](/assets/images/natas_16_solution/challenge_page.png)
 
 {% highlight php %}
-<? 
+<?
+$key = "";
 
-/* 
-CREATE TABLE `users` ( 
-  `username` varchar(64) DEFAULT NULL, 
-  `password` varchar(64) DEFAULT NULL 
-); 
-*/ 
+if(array_key_exists("needle", $_REQUEST)) {
+    $key = $_REQUEST["needle"];
+}
 
-if(array_key_exists("username", $_REQUEST)) { 
-    $link = mysql_connect('localhost', 'natas17', '<censored>'); 
-    mysql_select_db('natas17', $link); 
-     
-    $query = "SELECT * from users where username=\"".$_REQUEST["username"]."\""; 
-    if(array_key_exists("debug", $_GET)) { 
-        echo "Executing query: $query<br>"; 
-    } 
-
-    $res = mysql_query($query, $link); 
-    if($res) { 
-    if(mysql_num_rows($res) > 0) { 
-        //echo "This user exists.<br>"; 
-    } else { 
-        //echo "This user doesn't exist.<br>"; 
-    } 
-    } else { 
-        //echo "Error in query.<br>"; 
-    } 
-
-    mysql_close($link); 
-} else { 
-?> 
+if($key != "") {
+    if(preg_match('/[;|&`\'"]/',$key)) {
+        print "Input contains an illegal character!";
+    } else {
+        passthru("grep -i \"$key\" dictionary.txt");
+    }
+}
+?>
 {% endhighlight %}
+
+
+The goal of this level is that we need to bypass the regex filter in order to be able to read the flag in /etc/natas_webpass/natas17. 
 
 ## Solution
 
+Reading the source code of the page we can find out that that there is a regex filterzation, and we have to not to use any of the characters in the preg_match() function, so we go the passthru() function to inject and execute a custom command since we have control over the variable $key.
 
+We can use $() in order to inject our commands to the passthru() function, since none of the characters of $() exists in preg_match() filter.
 
-
+so the final command after injection will look like the following
+{% highlight shell %}
+grep -i $(grep /etc/natas_webpass/natas17) dictionary.txt
+{% endhighlight %}
 
