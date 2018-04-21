@@ -130,3 +130,9 @@ print '[!] PASSWORD = ' + password
 
 #print r.content
 {% endhighlight %}
+
+
+
+![Markdown Image](/assets/images/natas_17_solution/final_result.png)
+
+
