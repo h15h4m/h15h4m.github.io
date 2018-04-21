@@ -45,6 +45,6 @@ layout: page
 
 <h2>Certifications</h2>
 <ul class="skill-list">
-	<li>OSCP</li>
+	<li>OSCP in progress</li>
 	<li>etc... in the future</li>
 </ul>
