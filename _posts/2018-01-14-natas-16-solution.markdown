@@ -119,4 +119,4 @@ print "[+] password: " + password
 
 
 Executing the code
-![Markdown Image](/assets/images/natas_16_solution/final_results_.png)
+![Markdown Image](/assets/images/natas_16_solution/final_result.png)
