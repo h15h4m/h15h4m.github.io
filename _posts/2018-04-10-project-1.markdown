@@ -10,7 +10,7 @@ tag:
 - natas
 - wargames
 star: true
-category: projects
+category: project
 author: Hisham Alshaikh
 description: This is just a walkthrough for overthewire's natas level 17
 ---
