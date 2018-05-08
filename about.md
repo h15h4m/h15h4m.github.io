@@ -23,13 +23,12 @@ layout: page
 <ul class="skill-list">
 	<li>HTML5</li>
 	<li>CSS3 (Bootstrap)</li>
-	<li>Javascript (JQuery)</li>
+	<li>Javascript (JQuery and VueJS)</li>
 	<li>PHP (Laravel)</li>
 	<li>Python</li>
 	<li>C/C++</li>
-	<li>Assembly</li>
+	<li>Assembly (MIPS and x86)</li>
 	<li>Java (Spring Boot)</li>
-	<li>C# (ASP.NET Core)</li>
 	<li>MySQL</li>
 	<li>Agile Development (Scrum)</li>
 	<li>Git</li>
