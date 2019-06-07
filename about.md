@@ -7,19 +7,16 @@ layout: page
 <p>This is Hisham Alshaikh from Saudi Arabia. I really like cybersecurity. That is it. </p>
 
 
-<h2>Penetration Testing Skills</h2>
+<h2>Security Skills</h2>
 <ul class="skill-list">
-	<li>Proficient in pentesting with Kali Linux</li>
+	<li>Proficient in penetrationn testing with Kali Linux</li>
 	<li>Web applications pentesting with Burp Suite</li>
 	<li>Vulnerability Scanning (Manually, OpenVAS, Nessus, and etc)</li>
-	<li>Social Engineering</li>
-	<li>Reverse Engineering</li>
-	<li>Proficient in black box and white box methodologies</li>
 	<li><a href="https://www.hackthebox.eu/profile/3934">CTFer</a>. Got 'Top 100' badge</li>
 </ul>
 
 
-<h2>Programming Skills</h2>
+<h2>Software Engineering Skills</h2>
 <ul class="skill-list">
 	<li>HTML5</li>
 	<li>CSS3 (Bootstrap)</li>
@@ -45,7 +42,5 @@ layout: page
 
 <h2>Certifications</h2>
 <ul class="skill-list">
-	<li>OSCP in progress</li>
-	<li>SLAE in progress</li>
-	<li>etc... in the future</li>
+	<li>In Progress</li>
 </ul>
